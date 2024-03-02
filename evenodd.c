@@ -2,9 +2,18 @@
 
 int main()
 {
-   int a;
-   scanf("%d", &a);
-   (a % 2 == 0) ? (printf("%d is even", a)) : (printf("%d is odd", a));
+    int a;
+    printf("Enter any number: ");
+    scanf("%d", &a);
 
-   return 0;
+    if (a % 2 == 0)
+    {
+        printf("%d is even", a);
+    }
+    else
+    {
+        printf("%d is odd", a);
+    }
+
+    return 0;
 }
